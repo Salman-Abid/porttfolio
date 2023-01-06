@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans, sans-serif;
+}
+/* header st */
+header{
+    background: #FFF8F3;
+    background: url(images/header_bg.png), 
+    url(images/developer.png);
+
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+
+nav h2{
+    font-size: 35px;
+}
+
+nav h2 span{
+    color: #FD6E0A;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #474747;
+
+}
+
+ul li button{
+    font-size: 18px;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+
+}
+
+/* header end */
+
+/* banner st */
+.bannerSection{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+.bannerSubH{}
+.bannerSubH h4{
+    font-size: 45px;
+    color:#474747;
+    font-weight: 300;
+}
+
+.bannerH{}
+.bannerH h1{
+    font-size: 85px;
+    font-weight: 800;
+    color: #181818;
+    line-height: 100px;
+}
+
+.bannerPara{}
+.bannerPara p{
+    color: #181818;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btnPr{
+    font-size: 18px;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    margin-right: 10px;
+}
+
+.btnDf{
+
+    font-size: 18px;
+    color: #FD6E0A;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    margin-right: 10px;
+}
+/* banner end */
+
+/* about st */
+
+.aboutSection{
+    padding: 0 150px;
+    margin: 0 auto;
+}
+
+.aboutText{
+    padding: 130px 155px;
+    background: #FFF8F3;
+    
+}
+
+.aboutH{
+    padding: 20px 0;
+}
+
+.aboutH h3{
+    font-size: 36px;
+    color: #212020;
+    text-align: center;
+}
+
+.aboutPara{}
+.aboutPara p{
+    text-align: center;
+    color: #757575;
+}
+
+.aboutInfo{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+/* about end */
+
+/* skill st */
+.skillsection{
+    padding: 30px 150px;
+}
+
+.skilltext{
+    padding: 0 155px;
+}
+
+.skillInfoArea{
+    display: flex;
+    gap: 30px;
+
+    padding: 50px 0;
+}
+
+.skillInfo{
+    padding: 30px 25px;
+    box-shadow: 6px 5px 6px 5px rgba(128, 128, 128, 0.486);
+    border-radius: 10px;
+}
+
+.skillInfo img{}
+.skillInfo h4{
+    font-size: 20px;
+    color: #181818;
+    padding: 15px 0;
+}
+
+.skillInfo p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+}
+
+
+/* skill end */
+
+/* resume st */
+.resumeSection{
+    padding: 50px 150px;
+}
+
+.resumetext{
+    padding: 30px 155px;
+    margin-bottom: 20px;
+}
+
+.resumeInfoArea{
+    display: flex;
+    gap: 35px;
+}
+
+.resumeInfo{}
+.resumInfoH{}
+.resumInfoH h3{
+    font-size: 30px;
+    color: #474747;
+    padding: 15px 0;
+}
+.resuminfoTitle{
+    padding: 15px 0;
+}
+.resuminfoTitle h4{
+    font-size: 25px;
+    line-height: 30px;
+    color: #474747;
+}
+.resuminfoTitle h6{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.resuminfoTitle p{
+    font-size: 16px;
+    padding: 15px 0;
+    color: #757575;
+}
+
+.resumeBtn{
+    padding: 15px 0;
+    text-align: center;
+}
+/* resume end */
+
+/* footer st */
+footer{
+    background: #FFF8F3;
+}
+
+.footerArea{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 50px 150px;
+}
+
+.footerText{}
+.footerText h4{
+    font-size: 35px;
+    color: #181818;
+}
+.footerText p{
+    font-size: 16px;
+    color: #757575;
+    padding: 15px 0;
+}
+
+.foterIcon{}
+.foterIcon a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.footerForm{
+    align-items: flex-end;
+}
+.footerForm input[type="text"], input[type="email"], input[type="password"], textarea{
+    width: 500px;
+    border: 0;
+    margin-bottom: 25PX;
+    background: #ffffff;
+    padding: 18px 30px;
+    font-size: 16px;
+}
+/* footer end */
